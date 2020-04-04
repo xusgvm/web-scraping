@@ -7,13 +7,13 @@ GitHub de la práctica web-scraping de la asignatura Tipología y Ciclo de Vida 
 
 El objetivo de la práctica consiste en la extracción de las clasificaciones de equipos de fútbol profesional en todas las ligas europeas 
 
-Para ejecutar el script es necesario instalar la siguientes bibliotecas:
-<pre><code>
-pip install requests</br>
-pip install lxml</br>
-pip install beautifulsoup4</br>
-</code></pre>
+<p>Para ejecutar el script es necesario instalar la siguientes bibliotecas:</p>
+<pre>
+pip install requests
+pip install lxml
+pip install beautifulsoup4
+</pre>
 El script principal se debe ejecutar de la siguiente forma:
-<pre><code>
+<pre>
 python scraper.py
-</code></pre>
+</pre>
