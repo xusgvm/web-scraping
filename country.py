@@ -1,3 +1,4 @@
+#Clase que modela un País, contiene una lista de equipos de fútbol
 from countryTeam import countryTeam
 
 class country:
@@ -15,9 +16,11 @@ class country:
     def urlCountry(self):
         return self._urlCountry    
     
+    #Actualiza el atributo teams que contiene la lista de equipos de futbol
     def actualizarTeams(self, x):
         self._teams = x
 
+    #Retorna todos los equipos de futbol del pais en formato csv
     def countryToCsv(self):
         datos_csv=[]
         for ct in self._teams:

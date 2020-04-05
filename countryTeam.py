@@ -1,3 +1,4 @@
+#Clase que modela un equipo de futbol
 class countryTeam:
     def __init__(self, country, teamName, gamesPlayed, wHome, dHome, lHome, wAway, dAway, lAway, wTotal, dTotal, lTotal, points,position):
         self._countryName= country	#pais
@@ -74,6 +75,7 @@ class countryTeam:
         return self._position
     
 
+    #Este método retorna los datos que se escribirán en el csv
     def countryTeamToCsv(self):
         datos_csv=[self._countryName,self._teamName,self._gamesPlayed,self._wHome,self._dHome,self._lHome,self._wAway,self._dAway,self._lAway,self._wTotal,self._dTotal,self._lTotal,self._points,self._position]
         return datos_csv

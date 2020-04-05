@@ -1,3 +1,4 @@
+countryName,teamName,gamesPlayed,wHome,dHome,lHome,wAway,dAway,lAway,wTotal,dTotal,lTotal,points,position
 Albania,KF Tirana,26,9,3,2,7,2,3,16,5,5,53,1
 Albania,FK Kukësi,26,8,3,2,4,5,4,12,8,6,44,2
 Albania,KF Laçi,26,8,1,3,4,4,6,12,5,9,41,3
@@ -80,22 +81,22 @@ Bélgica,KAS Eupen,29,4,4,6,4,2,9,8,6,15,30,13
 Bélgica,Cercle Brugge KSV,29,5,1,8,2,1,12,7,2,20,23,14
 Bélgica,KV Oostende,29,5,3,7,1,1,12,6,4,19,22,15
 Bélgica,Waasland-Beveren,29,3,2,9,2,3,10,5,5,19,20,16
-Bielorrusia,FC Minsk,2,1,0,0,1,0,0,2,0,0,6,1
-Bielorrusia,FC Zvezda-BGU Minsk,2,1,0,0,1,0,0,2,0,0,6,2
-Bielorrusia,FC Isloch,2,2,0,0,0,0,0,2,0,0,6,3
-Bielorrusia,FC Torpedo Zhodino,2,1,0,0,1,0,0,2,0,0,6,4
-Bielorrusia,FC Dinamo Brest,2,0,1,0,1,0,0,1,1,0,4,5
-Bielorrusia,SFC Slutsk,2,1,0,1,0,0,0,1,0,1,3,6
-Bielorrusia,FC Neman Grodno,2,1,0,0,0,0,1,1,0,1,3,7
-Bielorrusia,FC Shakhtyor Soligorsk,2,0,0,1,1,0,0,1,0,1,3,8
-Bielorrusia,FC Rukh Brest,2,0,0,1,1,0,0,1,0,1,3,9
-Bielorrusia,FC Slavia-Mozyr,2,1,0,0,0,0,1,1,0,1,3,10
-Bielorrusia,FC Vitebsk,2,1,0,0,0,0,1,1,0,1,3,11
-Bielorrusia,Smolevichi-STI,2,0,0,0,0,1,1,0,1,1,1,12
-Bielorrusia,FC Dinamo Minsk,2,0,0,1,0,0,1,0,0,2,0,13
-Bielorrusia,FC BATE Borisov,2,0,0,0,0,0,2,0,0,2,0,14
-Bielorrusia,FC Belshina Bobruisk,2,0,0,1,0,0,1,0,0,2,0,15
-Bielorrusia,FC Gorodeya,2,0,0,1,0,0,1,0,0,2,0,16
+Bielorrusia,FC Zvezda-BGU Minsk,3,2,0,0,1,0,0,3,0,0,9,1
+Bielorrusia,SFC Slutsk,3,1,0,1,1,0,0,2,0,1,6,2
+Bielorrusia,FC Minsk,3,1,0,0,1,0,1,2,0,1,6,3
+Bielorrusia,FC Vitebsk,3,1,0,0,1,0,1,2,0,1,6,4
+Bielorrusia,FC Torpedo Zhodino,3,1,0,0,1,0,1,2,0,1,6,5
+Bielorrusia,FC Isloch,3,2,0,1,0,0,0,2,0,1,6,6
+Bielorrusia,FC Slavia-Mozyr,3,1,0,0,1,0,1,2,0,1,6,7
+Bielorrusia,FC Neman Grodno,3,1,0,0,0,1,1,1,1,1,4,8
+Bielorrusia,FC Shakhtyor Soligorsk,3,0,1,1,1,0,0,1,1,1,4,9
+Bielorrusia,FC Dinamo Brest,3,0,1,1,1,0,0,1,1,1,4,10
+Bielorrusia,FC BATE Borisov,3,1,0,0,0,0,2,1,0,2,3,11
+Bielorrusia,FC Rukh Brest,3,0,0,1,1,0,1,1,0,2,3,12
+Bielorrusia,FC Gorodeya,3,0,0,1,1,0,1,1,0,2,3,13
+Bielorrusia,FC Dinamo Minsk,3,1,0,1,0,0,1,1,0,2,3,14
+Bielorrusia,Smolevichi-STI,3,0,0,1,0,1,1,0,1,2,1,15
+Bielorrusia,FC Belshina Bobruisk,3,0,0,2,0,0,1,0,0,3,0,16
 Bosnia-Herzegovina,FK Sarajevo,22,10,0,1,3,6,2,13,6,3,45,1
 Bosnia-Herzegovina,FK Željezničar,22,7,2,2,5,4,2,12,6,4,42,2
 Bosnia-Herzegovina,HŠK Zrinjski,22,8,2,1,3,3,5,11,5,6,38,3
