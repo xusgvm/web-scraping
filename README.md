@@ -1,5 +1,5 @@
 <H1>GitHub de la práctica Web Scraping de la asignatura Tipología y Ciclo de Vida de los Datosdel Master en Data Science</br></br></H1>
-<p>Autores:  </p>
+<p><h2>Autores:  </h2></p>
           <b>Xus Garcia de la Vega Matas</b> &nbsp; github: https://github.com/xusgvm</br>
           <b>Anddy Aldave Valle</b> &nbsp;github: https://github.com/aaldaveva</p>
 
