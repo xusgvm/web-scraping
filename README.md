@@ -45,7 +45,7 @@ En la práctica que nos atañe, hemos trabajado en el apartado relacionado con l
 Este último apartado  es donde se ha focalizado la recolección de datos, de los que se han creado los distintos códigos para tener una clasificación por países y dentro de cada uno de ellos, los equipos que lo forman. Para cada uno de los equipos se ha recopilado la información relacionada a la liga que pertenece, obteniendo así la posición en la clasificación, los partidos jugados, los puntos, etc.
 
 
-<h3>Definir un título para el dataset. Elegir un titulo que sea descriptivo.</h3>
+<h3>Definir un título para el dataset. Elegir un título que sea descriptivo.</h3>
 
 Clasificación actualizada de equipos de fútbol profesional en las ligas europeas
  
