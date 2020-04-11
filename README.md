@@ -136,3 +136,9 @@ Teniendo en cuenta que, de todos los tipos de licencias proporcionados en el enu
 
 El código fue desarrollado en Python utilizando el Entorno de Desarrollo Integrado (IDE) Wing Personal 7.2, el código fuente se encuentra en el fichero comprimido código.zip y también en el repositorio de github: 	https://github.com/aaldaveva/web-scraping
 
+<h3>Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción</h3>
+
+El proyecto se encuentra alojado en el repositorio de Zenodo:
+https://zenodo.org/record/3748300#.XpF4ac1S9hE
+
+
