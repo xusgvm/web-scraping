@@ -31,8 +31,10 @@ python scraper.py
           <li>Partidos totales perdidos</li>
           <li>Puntos obtenidos</li>
           <li>Posición en la clasificación</li>
-</ul>          
-<h3>Explicar en qué contexto se ha recolectado la información. Explique porque el sitio web elegido proporciona dicha información.</h3>
+</ul>   
+
+
+### Explicar en qué contexto se ha recolectado la información. Explique porque el sitio web elegido proporciona dicha información.
 
 El máximo organismo europeo a nivel futbolístico es la UEFA (Unión de Asociaciones Europeas de Fútbol) y esta se encarga de organizar los distintos campeonatos que se puedan realizar en Europa, así como promover, desarrollar y controlar cualquier aspecto a nivel de dicho deporte.
 
@@ -45,11 +47,11 @@ En la práctica que nos atañe, hemos trabajado en el apartado relacionado con l
 Este último apartado  es donde se ha focalizado la recolección de datos, de los que se han creado los distintos códigos para tener una clasificación por países y dentro de cada uno de ellos, los equipos que lo forman. Para cada uno de los equipos se ha recopilado la información relacionada a la liga que pertenece, obteniendo así la posición en la clasificación, los partidos jugados, los puntos, etc.
 
 
-<h3>Definir un título para el dataset. Elegir un título que sea descriptivo.</h3>
+### Definir un título para el dataset. Elegir un título que sea descriptivo.
 
 Clasificación actualizada de equipos de fútbol profesional en las ligas europeas
  
-<h3>Descripción del dataset. Desarrollar una descripción breve del conjunto de datos que se ha extraído (es necesario que esta descripción tenga sentido con el título elegido).</h3>
+### Descripción del dataset. Desarrollar una descripción breve del conjunto de datos que se ha extraído (es necesario que esta descripción tenga sentido con el título elegido).
 
 Un dataset es un una colección de datos, normalmente tabulada. En este caso el conjunto de datos procede de la página oficial del mayor organismo futbolístico a nivel europeo. 
 
@@ -57,38 +59,39 @@ La información que pública la UEFA corresponde, entre otra, a todas las ligas 
 
 Los datos extraídos corresponden precisamente a todos los equipos de estas ligas europeas con los puntos, posiciones, partidos… de cada uno de ellos. De ahí que se haya escogido el nombre anteriormente mencionado: Clasificación actualizada de equipos de fútbol profesional en las ligas europeas.
 
+### Representación grafica. Presentar una imagen o esquema que identifique el dataset visualmente.
 
-<h3>Representación grafica. Presentar una imagen o esquema que identifique el dataset visualmente.</h3>
+![alt text](https://github.com/aaldaveva/web-scraping/blob/master/images/pr1.png?raw=true "DataSet Gráfico")
 
- 
-
-<h3>Contenido. Explicar los campos que incluye el dataset, el periodo de tiempo de los datos y como se ha recogido.</h3>
+### Contenido. Explicar los campos que incluye el dataset, el periodo de tiempo de los datos y como se ha recogido.
 
 Para la creación del dataset, se ha accedido a la web de trabajo y se ha descargado mediante la librería BeautifulSoup. Para cada link que encontramos, se guarda el link que será el que va a contener la información por países. 
 
 Por países vamos obteniendo de forma iterativa los equipos que componen dicho país con los correspondientes datos de la clasificación. Por cada equipo obtenido, se guarda la información en un vector que contendrá todos los atributos y que posteriormente, una vez recopilados en su totalidad [los equipos] los guardaremos en el csv.
 
-Dado que los partidos se disputan semanalmente, el periodo del tiempo de datos normal sería entre 7 y 10 días. Pero se podría dar una situación excepcional que esta semana no se disputara la competición por cualquier razón, por ejemplo, elecciones, huelga… con lo que estableceríamos un periodo de 15-20 días.
+Los datos han sido capturados desde la página web oficial de la UEFA y los datos sobre las clasificaciones son datos oficiales hasta la última jornada que se pudo practicar este deporte. Cabe decir que no existe histórico de ningún tipo, esto implica que si se quisiera guardar la información de las clasificaciones por fechas o algún otro criterio, se debería ejecutar el programa de forma semanal y guardarlos. 
 
 El dataset incluye los siguientes campos:
 
 Variable	Descripción
-countryName	País al cual pertenece el equipo
-teamName	Nombre del equipo de fútbol
-gamesPlayed	partidos jugados
-wHome	partidos ganados en casa
-dHome	partidos empatados en casa
-lHome	partidos perdidos en casa
-wAway	partidos ganados fuera de casa
-dAway	partidos empatados fuera de casa
-lAway	partidos perdidos fuera de casa
-wTotal	partidos totales ganados
-dTotal	partidos totales empatados
-lTotal	partidos totales perdidos
-points	total de puntos obtenidos
-position	posición en la clasificación
+<ul>
+          <li>countryName	País al cual pertenece el equipo</li>
+<li>teamName	Nombre del equipo de fútbol</li>
+<li>gamesPlayed	partidos jugados</li>
+<li>wHome	partidos ganados en casa</li>
+<li>dHome	partidos empatados en casa</li>
+<li>lHome	partidos perdidos en casa</li>
+<li>wAway	partidos ganados fuera de casa</li>
+<li>dAway	partidos empatados fuera de casa</li>
+<li>lAway	partidos perdidos fuera de casa</li>
+<li>wTotal	partidos totales ganados</li>
+<li>dTotal	partidos totales empatados</li>
+<li>lTotal	partidos totales perdidos</li>
+<li>points	total de puntos obtenidos</li>
+          <li>position	posición en la clasificación</li>
+          </ul>
 
-<h3>Agradecimientos. Presentar al propietario del conjunto de datos. Es necesario incluir citas de investigación o análisis anteriores (si los hay).</h3>
+### Agradecimientos. Presentar al propietario del conjunto de datos. Es necesario incluir citas de investigación o análisis anteriores (si los hay).
 
 La UEFA (Unión de Federaciones Europeas de Fútbol), es la confederación europea de asociaciones nacionales de fútbol y máximo organismo de este deporte en el continente europeo. Agrupa a todas las federaciones nacionales a lo largo de toda Europa.
 
@@ -104,7 +107,7 @@ Las webs que hemos encontrado que muestran la clasificación de las principales 
 -	https://www.superdeporte.es/deportes/futbol/
 -	https://www.scoreboard.com/es/futbol/
  
-<h3>Inspiración. Explique por qué es interesante este conjunto de datos y qué preguntas se pretenden responder.</h3>
+### Inspiración. Explique por qué es interesante este conjunto de datos y qué preguntas se pretenden responder.
 
 El fútbol es el deporte más popular no solo del continente europeo sino del mundo, se estima que tiene más de 4 mil millones de seguidores, alcanzando cifras del 60% de la población total. 
 Por ello, consideramos que la extracción de cualquier tipo de información de fuentes oficiales asociadas al fútbol y generación de datos listos para ser analizados por distintas plataformas, webs, prensa, aplicaciones móviles, etc., puede llegar a tener una repercusión muy importante teniendo en cuenta la cantidad de usuarios finales a quienes les puede llegar la información a través de diferentes medios.
@@ -123,7 +126,7 @@ o	Qué equipo de Europa ha obtenido la mejor puntuación, el más goleador y el 
 o	¿Qué ligas se pueden dar por finalizadas, según la diferencia de puntos entre los primeros clasificados?
 o	¿Cuántas jornadas faltan para dar por terminadas las ligas europeas de fútbol por países?
 
-<h3>Licencia.   Seleccione   una   de estas licencias   para   su   dataset   y   explique   el motivo de su selección:</h3>
+### Licencia.   Seleccione   una   de estas licencias   para   su   dataset   y   explique   el motivo de su selección:
 
 Consideramos que nuestro dataset debería tener una licencia del tipo Released Under CC BY-NC-SA 4.0 License. La elección de esta licencia se basa en:
 -	Cualquier persona o empresa que la utilice deberá reconocer la autoría de quienes construyeron el dataset y también indicar si realizaron cambios o no en el mismo. De esta forma se nos reconocerá nuestro trabajo.
@@ -132,13 +135,24 @@ Consideramos que nuestro dataset debería tener una licencia del tipo Released U
 
 Teniendo en cuenta que, de todos los tipos de licencias proporcionados en el enunciado, la única que se ajusta a nuestro modo de trabajo y reconocimiento seleccionamos Released Under CC BY-NC-SA 4.0 License.
 
-<h3>Código. Adjuntar el código con el que se ha generado el dataset, preferiblemente en Python o, alternativamente, en R.</h3>
+### Código. Adjuntar el código con el que se ha generado el dataset, preferiblemente en Python o, alternativamente, en R.
 
 El código fue desarrollado en Python utilizando el Entorno de Desarrollo Integrado (IDE) Wing Personal 7.2, el código fuente se encuentra en el fichero comprimido código.zip y también en el repositorio de github: 	https://github.com/aaldaveva/web-scraping
+El proyecto consta del siguiente código desarrollado en Python:
+-	country.py: Modela un país
+-	countryTeam.py: Modela un equipo de un país
+-	scraper.py: Clase inicial que será la encargada de desencadenar todo
+-	scraperCountries.py: Clase que contiene toda la lógica de negocio de la aplicación
 
-<h3>Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción</h3>
+### Dataset. Publicación del dataset en formato CSV en Zenodo con una pequeña descripción.
 
 El proyecto se encuentra alojado en el repositorio de Zenodo:
 https://zenodo.org/record/3748300#.XpF4ac1S9hE
+
+
+### Entrega. Presentar el trabajo con el DOI del dataset en Github.
+
+El proyecto se encuentra alojado en el repositorio de Github: 
+https://github.com/aaldaveva/web-scraping
 
 
